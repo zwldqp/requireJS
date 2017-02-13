@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<script src=""  async></script>-->
+    <!--异步  不保证顺序加载        异步不能用document.write-->
+    <!--<script src=""  defer></script>-->
+    <!--异步  顺序加载-->
+    <script src="require.js" data-main="sort"></script>
+</head>
+<body>
+    <button id="btn">jhh</button>
+</body>
+<script>
+//    require原理
+//    var oBtn=document.getElementById('btn');
+//    oBtn.onclick= function () {
+//        var oScript=document.createElement("script");
+//        oScript.src="hello.js";
+//        document.body.appendChild(oScript);
+//    }
+
+
+
+
+</script>
+
+<script>
+
+
+//    模块规范化
+
+//    require(["a"],function(){
+//        AMC   依赖前置   requireJS    异步模块定义
+//    });
+
+//    define(function(require, exports, module){
+//       var a = require('./a');
+//        CMD   依赖就近   seaJS     通用模块定义
+//    });
+</script>
+
+
+
+
+</html>
+
+
